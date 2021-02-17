@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/pizzas",
+            "lambdaFunction": "lutskeamplify",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/pizzas"
+        }
+    ],
+    "resourceName": "amplifylutske",
+    "apiName": "amplifylutske",
+    "functionArns": [
+        {
+            "lambdaFunction": "lutskeamplify"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifylutskeapp-dev-182225-authRole",
+        "unAuthRoleName": "amplify-amplifylutskeapp-dev-182225-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "lutskeamplify",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

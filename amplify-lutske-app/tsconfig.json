@@ -6,6 +6,9 @@
       "typeRoots": [
         "node_modules/@types"
       ],
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false

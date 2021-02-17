@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifylutskeappbb8f351f": {}
+      },
+      "function": {
+        "lutskeamplify": {
+          "deploymentBucketName": "amplify-amplifylutskeapp-dev-182225-deployment",
+          "s3Key": "amplify-builds/lutskeamplify-582b65565a782f625172-build.zip"
+        }
       }
     }
   }
